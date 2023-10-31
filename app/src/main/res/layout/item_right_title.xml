@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="12sp" android:typeface="normal" android:textStyle="bold" android:gravity="center" android:id="@+id/tv_right_title" android:layout_width="match_parent" android:layout_height="50dp" android:fontFamily="serif-monospace" app:qmui_skin_text_color="?attr/app_skin_common_title_text_color"/>

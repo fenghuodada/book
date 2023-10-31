@@ -1,0 +1,23 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.concurrent.ScheduledExecutorService;
+
+/* loaded from: classes.dex */
+public final class zzbcn implements zzgvo {
+    private final zzgwb zza;
+    private final zzgwb zzb;
+    private final zzgwb zzc;
+    private final zzgwb zzd;
+
+    public zzbcn(zzgwb zzgwbVar, zzgwb zzgwbVar2, zzgwb zzgwbVar3, zzgwb zzgwbVar4) {
+        this.zza = zzgwbVar;
+        this.zzb = zzgwbVar2;
+        this.zzc = zzgwbVar3;
+        this.zzd = zzgwbVar4;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzgwb
+    public final /* synthetic */ Object zzb() {
+        return new zzbcm(((zzchc) this.zza).zza(), (ScheduledExecutorService) this.zzb.zzb(), new zzbco(), (zzffq) this.zzd.zzb());
+    }
+}
